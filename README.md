@@ -28,3 +28,5 @@ Data:
       
     • Repeat the previous items for  Nrep = {10, 200, 500, 1000, 10000} . Draw conclusions based
 	on the observed results.
+<img src="images/Rplot.png" align="center" />
+<img src="images/Rplot01.png" align="center" />
