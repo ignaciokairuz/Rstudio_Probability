@@ -1,32 +1,16 @@
-# Probability_Rstudio
+This is my first program using R. This is an exercise made for the probability course. It simulates the generation of a pack with a ceritain number stickers in it and a certain number of total amount of stickers necesary to complete the album, a function that simulates the filling of an album if the distribution of the stickers is random and returns how many packs are neccesary and  finally estimates the graph of the probability functions and expeted values of 4 variables :
+- N  as the number of packs needed to complete the album
+- C  the amount of money required to 	complete the album
+- T  the time required to complete the album
+- X  the time (in days) between two consecutive purchases of packs (which is known to have an exponential distribution with a rate  of 1)
 
-World Cup sticker album :
-how many stickers do you have to buy to complete the World Cup album?
 
-Data:
 
-    • 640 sticker slots.
-    • Each sticker is printed in equal quantities and is randomly distributed.
-    • Each pack comes with five stickers.
-    • Each pack costs $ 20.
-      
+<br/>
 
-1. Create functions that can :
-
-    • Simulate the generation of a pack with 5 stickers, knowing that the album is 640. Note that, as in real life, there can be repeated stickers in a pack.
-
-    • Implement a function named genPack(totalStick , stickerPack) that given the amount of slots (totalStick) and the number of stickers per pack (stickerPack), generates a pack of random stickers. Note that, as in real life, there can be repeated stickers in a pack.
-
-    •  Implement a function howmanypacks(totalStick , stickerPack) that given the amount of slots (totalStick) and the number of stickers per pack (stickerPack), simulates the filling of the album and returns how many packs are need to be purchased to complete it.
-
-2. Estimate the distributions and expected values of the variables under study :
-	We define  N  as the number of packs needed to complete the album,  C  the amount of money required to 	complete the album,  T  the time required to complete the album, and  X  the time (in days) between two 	consecutive purchases of packs, which is known to have an exponential distribution with a rate  of 1. From 	Nrep = 100  simulations/iterations , using  totalStick = 640 , stickerPack = 5 :
-
-    • Estimate and graph the probability functions of  N  and  C  and the density function of  T .
-
-    • Estimate the expected values of  N ,  C  and  T  .
-      
-    • Repeat the previous items for  Nrep = {10, 200, 500, 1000, 10000} . Draw conclusions based
-	on the observed results.
 <img src="images/Rplot.png" align="center" />
+
+<br/>
+<br/>
+
 <img src="images/Rplot01.png" align="center" />
